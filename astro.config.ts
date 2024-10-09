@@ -21,6 +21,7 @@ import rehypeExternalLinks from "rehype-external-links";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://rvandrun.github.io',
 	image: {
 		domains: ["webmention.io"],
 	},
